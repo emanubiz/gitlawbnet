@@ -1,0 +1,23 @@
+name: tests
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install package + test extras
+        run: |
+          pip install --upgrade pip
+          # Install the package with the dev/mock extras so aiohttp,
+          # pytest-asyncio, etc. are present. --no-deps skipped on purpose:
+          # we want pip to pull bittensor + transitives so test_bittensor_smoke
+          # runs against the real SDK.
+          pip install -e ".[dev,mock]"
+      - name: pytest
+        run: pytest tests/ -v

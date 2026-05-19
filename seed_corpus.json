@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-18T18:00:36.455957+00:00",
+  "trusted_nodes": [
+    "https://node.gitlawb.com"
+  ],
+  "cids": [
+    "bafkreicmqocdlnutfj776irllgb5dygduwrbdkf5rhjxxnabeckdh47jlm",
+    "bafkreihdm555hikrq42t5azwsjuzmw7bg2eiqwynxmexrkysy2o3a4ewiq",
+    "bafkreid7uppjpgbx3ez7rbl274y2khejlblinrewzjjipodvpkaj7gucme",
+    "bafkreigrs7b6gytapmiyxdki7bm5hp2g6jxceqfbp2ghrvxcj2anzghjcy",
+    "bafkreicfm7ch7dkn36buiqg4srd4nol4mwdi3yxpm2n23za463llmz4lim",
+    "bafkreibpirj35plqmfqd5i2n357pufocg4iitfgmfg7z5janle3pwqrvau",
+    "bafkreihfjistuo2v2cvkahstbgvnlyupsge2los4anhcxnsdytbadv5xki",
+    "bafkreifzrdsj5ljcvtjk5y4qm5xiu33kr3peplvzhadnwjphluwpikqmfu",
+    "bafkreidq4cijqnnbecscng6fcymxhvxmedmygtpqr2eafmn5bm75uhvu2q",
+    "bafkreigd6fn6gbocatpq24rvw2to2eyyd4gkkh3byly2oqfb6a63gbku3u",
+    "bafkreiddp2b7pbfm6j5bwhrzfrhcnapqxdwdmkkqers3ybfr2x224fksfq",
+    "bafkreibngmmea6pfvx53c6oxmh4ispfu5hndkuuki45df4wy4pjlsjlfj4",
+    "bafkreig773dr3e7sopjk662uy3d6pzylgke4mmxmbvzfgiioyinmgnwvvq",
+    "bafkreidvssqpyzkqi3w4ihvftmnsbbgg2ubtznkcj6u6obgtzixh4syhji",
+    "bafkreickj3dorpj5pyb5vgiwmgf7kf7g6ltnwn64hu5n2v3buodnvcdxqi",
+    "bafkreiholv27gkgmg2lqhhld4ka3w2fyv6l5zy55i7btzjmgq72pgqqboa",
+    "bafkreia56mv4isqhuoeu6gntx76in2jrno7rid4r73ow3ipgjftyqywm5a",
+    "bafkreicuphfjf6qkhy2dnr223yex7savhk7qrhfbxmnxqbbv742wvogbla",
+    "bafkreif4s6yna55dyxkwaoaizlxlh7sxfxfsisgfknvwmmlndnvrfhh4um",
+    "bafkreig4aaxz77cufsmmeirx37f376vmvtv4nvmmpjjjw3cl4h3tqxrfua",
+    "bafkreidewnzkoerckarapb24hon64swbf5t5hkrx7kkfvl53pbtdcgh3s4",
+    "bafkreiguoeqmozdfo4lcco6exyvhg4rfu2adcb5je6c2fkeofy5mshkgq4",
+    "bafkreihug4gor2zrgvc3zazkw7hin2b5ad2jtgacnaithhpnlgso2ksf2e",
+    "bafkreihrnlfp2frumjhgbqskku4aatcoc2gieyd7cdn6fa4v5hpt47k6ji",
+    "bafkreial4443ul4jjl2rmqi5qotvjesz2obo2qpuasfcwtu3wfa2vghpgy",
+    "bafkreieanoxex6slosilz6ogsaxbqvbozucay7453aec6x6gwccljtwu7q",
+    "bafkreidiyu3kvportlwqeaw2ulbcswqbobutjiebrbumlfh46lr4ileksa",
+    "bafkreid6kyhjxbee4e7vnhqykfnxrywxqe32aqlfehd3sxxe25napjzyci",
+    "bafkreia7ublvjif6obtiitpvqcurtijczarbpoovsims4aureeonoujb6m",
+    "bafkreifn574jwolgbzgwbw2pjv7sndj4mbwz6tyj3czgr23w6lb4op4qcu"
+  ],
+  "repos": [
+    {
+      "owner": "z6MkqDnb7Siv3Cwj7pGJq4T5EsUisECqR8KpnDLwcaZq5TPr",
+      "repo": "hello"
+    },
+    {
+      "owner": "z6Mkopj6mhcMayipekXbTRFMZPM6Bsgy4FQZuN9fannXSLTC",
+      "repo": "food-scanner"
+    },
+    {
+      "owner": "z6Mkgp4nhefcVq8VKJ84x6LuVQvddUE7MAijc9XrkPKM1WU1",
+      "repo": "gl-repo-stats"
+    },
+    {
+      "owner": "z6MkibSVunjNgRNCiGH64DoGmG998bH8KjpENxWWFLMhsCmh",
+      "repo": "gitlawb-pr-bot"
+    },
+    {
+      "owner": "z6MkgbVHVzAkBDqv1fh3uDCkPaQcVScXFfKV5jJkcvfSNmBu",
+      "repo": "fibonacci-hunter"
+    }
+  ],
+  "gossip_repos": [
+    {
+      "owner": "z6MkqDnb7Siv3Cwj7pGJq4T5EsUisECqR8KpnDLwcaZq5TPr",
+      "repo": "hello",
+      "ref": "refs/heads/main"
+    }
+  ]
+}

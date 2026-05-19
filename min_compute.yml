@@ -1,0 +1,72 @@
+# Recommended hardware for Gitlawbnet participants.
+# Validator and miner requirements differ because miners must run a
+# real gitlawb-node (Rust daemon + IPFS pinning), while validators only
+# issue challenges and submit weights.
+
+version: "1.0"
+
+compute_spec:
+
+  miner:
+    cpu:
+      min_cores: 4
+      min_speed: 2.5            # GHz
+      recommended_cores: 8
+      recommended_speed: 3.5
+      architecture: "x86_64"
+
+    gpu:
+      required: False
+
+    memory:
+      min_ram: 8                # GB
+      recommended_ram: 32
+      min_swap: 4
+
+    storage:
+      min_space: 200            # GB — IPFS pinning grows quickly
+      recommended_space: 1000
+      type: "SSD"
+
+    os:
+      name: "Ubuntu"
+      version: 22.04
+
+    network:
+      bandwidth:
+        download: 200           # Mbit/s
+        upload: 200
+      ports:
+        - 7545                  # gitlawb HTTP / git smart-HTTP
+        - 7546                  # libp2p gossip
+        - 8091                  # Bittensor axon
+
+  validator:
+    cpu:
+      min_cores: 2
+      min_speed: 2.5
+      recommended_cores: 4
+      recommended_speed: 3.5
+      architecture: "x86_64"
+
+    gpu:
+      required: False
+
+    memory:
+      min_ram: 4
+      recommended_ram: 8
+      min_swap: 2
+
+    storage:
+      min_space: 50
+      recommended_space: 200
+      type: "SSD"
+
+    os:
+      name: "Ubuntu"
+      version: 22.04
+
+    network:
+      bandwidth:
+        download: 100
+        upload: 100
